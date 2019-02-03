@@ -27,10 +27,9 @@ export default class Intro extends Component {
       numLoaded: 0
     };
 
-    this.service = interpret(GifIntroMachine).onTransition(current =>
-      this.setState({ current })
-    );
-    // .onDone(() => this.props.transition("TIMEOUT"));
+    this.service = interpret(GifIntroMachine)
+      .onTransition(current => this.setState({ current }))
+      .onDone(() => this.props.transition("TIMEOUT"));
 
     this.skipRef = React.createRef();
 
