@@ -1,6 +1,18 @@
 {
-  "main.css": "static/css/main.36b8a419.css",
-  "main.css.map": "static/css/main.36b8a419.css.map",
-  "main.js": "static/js/main.91de2dc9.js",
-  "main.js.map": "static/js/main.91de2dc9.js.map"
+  "main.css": "/PokeBattler-React/static/css/main.aef4ea53.chunk.css",
+  "main.js": "/PokeBattler-React/static/js/main.6dbc6304.chunk.js",
+  "main.js.map": "/PokeBattler-React/static/js/main.6dbc6304.chunk.js.map",
+  "static/js/1.3fe2504b.chunk.js": "/PokeBattler-React/static/js/1.3fe2504b.chunk.js",
+  "static/js/1.3fe2504b.chunk.js.map": "/PokeBattler-React/static/js/1.3fe2504b.chunk.js.map",
+  "runtime~main.js": "/PokeBattler-React/static/js/runtime~main.cca6f45f.js",
+  "runtime~main.js.map": "/PokeBattler-React/static/js/runtime~main.cca6f45f.js.map",
+  "static/media/101-opening.mp3": "/PokeBattler-React/static/media/101-opening.957e5f1f.mp3",
+  "static/media/intro2.gif": "/PokeBattler-React/static/media/intro2.b5f5d3be.gif",
+  "static/media/intro3.gif": "/PokeBattler-React/static/media/intro3.6278c9f9.gif",
+  "static/media/intro4.gif": "/PokeBattler-React/static/media/intro4.d21214da.gif",
+  "static/media/intro1.gif": "/PokeBattler-React/static/media/intro1.278afa60.gif",
+  "static/css/main.aef4ea53.chunk.css.map": "/PokeBattler-React/static/css/main.aef4ea53.chunk.css.map",
+  "index.html": "/PokeBattler-React/index.html",
+  "precache-manifest.7c5b08594847fd9ac74180a76ec7d132.js": "/PokeBattler-React/precache-manifest.7c5b08594847fd9ac74180a76ec7d132.js",
+  "service-worker.js": "/PokeBattler-React/service-worker.js"
 }
