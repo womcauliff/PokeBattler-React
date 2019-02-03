@@ -24,19 +24,19 @@ self.__precacheManifest = [
     "url": "/PokeBattler-React/static/js/runtime~main.cca6f45f.js"
   },
   {
-    "revision": "6dbc63043e08f0d5e2ab",
-    "url": "/PokeBattler-React/static/js/main.6dbc6304.chunk.js"
+    "revision": "e51a336612ab12cca20c",
+    "url": "/PokeBattler-React/static/js/main.e51a3366.chunk.js"
   },
   {
     "revision": "3fe2504b4f99753d1d25",
     "url": "/PokeBattler-React/static/js/1.3fe2504b.chunk.js"
   },
   {
-    "revision": "6dbc63043e08f0d5e2ab",
+    "revision": "e51a336612ab12cca20c",
     "url": "/PokeBattler-React/static/css/main.aef4ea53.chunk.css"
   },
   {
-    "revision": "03a2fd44ab738e74df968806f3b3babe",
+    "revision": "40aad909b36e79637b8b2a615a51337a",
     "url": "/PokeBattler-React/index.html"
   }
 ];

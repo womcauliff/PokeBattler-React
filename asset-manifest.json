@@ -1,7 +1,7 @@
 {
   "main.css": "/PokeBattler-React/static/css/main.aef4ea53.chunk.css",
-  "main.js": "/PokeBattler-React/static/js/main.6dbc6304.chunk.js",
-  "main.js.map": "/PokeBattler-React/static/js/main.6dbc6304.chunk.js.map",
+  "main.js": "/PokeBattler-React/static/js/main.e51a3366.chunk.js",
+  "main.js.map": "/PokeBattler-React/static/js/main.e51a3366.chunk.js.map",
   "static/js/1.3fe2504b.chunk.js": "/PokeBattler-React/static/js/1.3fe2504b.chunk.js",
   "static/js/1.3fe2504b.chunk.js.map": "/PokeBattler-React/static/js/1.3fe2504b.chunk.js.map",
   "runtime~main.js": "/PokeBattler-React/static/js/runtime~main.cca6f45f.js",
@@ -13,6 +13,6 @@
   "static/media/intro1.gif": "/PokeBattler-React/static/media/intro1.278afa60.gif",
   "static/css/main.aef4ea53.chunk.css.map": "/PokeBattler-React/static/css/main.aef4ea53.chunk.css.map",
   "index.html": "/PokeBattler-React/index.html",
-  "precache-manifest.7c5b08594847fd9ac74180a76ec7d132.js": "/PokeBattler-React/precache-manifest.7c5b08594847fd9ac74180a76ec7d132.js",
+  "precache-manifest.669417003f15c87c3b460b9b50b846f7.js": "/PokeBattler-React/precache-manifest.669417003f15c87c3b460b9b50b846f7.js",
   "service-worker.js": "/PokeBattler-React/service-worker.js"
 }

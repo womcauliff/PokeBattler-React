@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/PokeBattler-React/precache-manifest.7c5b08594847fd9ac74180a76ec7d132.js"
+  "/PokeBattler-React/precache-manifest.669417003f15c87c3b460b9b50b846f7.js"
 );
 
 workbox.clientsClaim();
