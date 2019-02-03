@@ -2,8 +2,10 @@
   "name": "pokebattler",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://womcauliff.github.io/PokeBattler-React",
   "dependencies": {
     "classnames": "^2.2.6",
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
@@ -13,6 +15,8 @@
     "xstate": "^4.3.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
