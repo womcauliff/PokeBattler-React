@@ -1,10 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Londrina+Solid|Open+Sans|VT323");
+
 .App {
   text-align: center;
+  box-sizing: border-box;
+  font-family: "VT323", monospace;
+  height: 100vh;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+*,
+*:before,
+*:after {
+  /* font-family: "VT323", monospace; */
+  box-sizing: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
 }
 
 .App-header {
@@ -18,15 +32,128 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App[data-sc-value="soundOptions"],
+.App[data-sc-value="intro"] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.App[data-sc-value="soundOptions"] > * + * {
+  margin-top: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.option-box {
+  border-top: solid black;
+  border-bottom: solid black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
 }
+.option-box::before,
+.option-box:after {
+  width: 5px;
+  background: black;
+  content: " ";
+  position: absolute;
+  height: 100%;
+}
+.option-box::before {
+  left: -5px;
+}
+.option-box::after {
+  right: -5px;
+}
+.option-box > * {
+  background: initial;
+  border: none;
+  flex: 0 1 50%;
+  font-family: "VT323", monospace;
+  font-size: 2em;
+  outline: none;
+  text-align: center;
+  width: 200px;
+}
+.option-box > *:focus::before {
+  content: "\0025B8";
+  font-size: 0.8em;
+  left: 10px;
+  position: absolute;
+}
+
+.App[data-sc-value="soundOptions"] .option-box,
+.App[data-sc-value="intro"] .option-box {
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+  height: 80px;
+  width: 200px;
+}
+.App[data-sc-value="soundOptions"] .option-box > * {
+  width: 50%;
+}
+
+.App::after {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 1rem;
+  bottom: 0.5rem;
+  color: white;
+  content: "current state: " attr(data-sc-value);
+  font-size: 1rem;
+  left: 25%;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  pointer-events: none;
+  text-shadow: 0 0 0.1rem black;
+  transform: translateX(-50%);
+}
+#audio_player {
+  bottom: 0.5rem;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+.App[data-sc-value="intro"] {
+  position: relative;
+}
+.App[data-sc-value="intro"] .img-container {
+  position: relative;
+}
+.App[data-sc-value="intro"] img {
+  max-width: 100%;
+}
+
+.characters {
+  display: flex;
+  justify-content: center;
+}
+.character-container {
+  padding: 0 1em;
+}
+.character-container img {
+  width: 100%;
+}
+.character-container.defeated {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.character {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.character-name {
+  font-family: "VT323", monospace;
+}
+/* #character1 {
+  background-color: lawngreen;
+}
+#character4 {
+  background-color: firebrick;
+}
+#character7 {
+  background-color: dodgerblue;
+}
+#character25 {
+  background-color: gold;
+} */

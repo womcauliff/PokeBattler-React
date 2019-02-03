@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "img": "001Bulbasaur.png",
+    "type": ["grass", "poison"],
+    "weaknesses": ["flying", "fire", "psychic", "ice"],
+    "resistances": ["fighting", "water", "grass", "electric", "fairy"],
+    "baseHp": 45,
+    "baseAttack": 49,
+    "baseDefense": 49,
+    "baseSpAttack": 65,
+    "baseSpDefense": 65,
+    "level": 15,
+    "currentHp": 0,
+    "totalHp": 0,
+    "defeated": false,
+    "moves": [
+      {
+        "id": 22,
+        "name": "Vine Whip",
+        "basePower": 45,
+        "type": "grass",
+        "category": "physical",
+        "flavor_text": "The target is struck with slender, whiplike vines to inflict damage."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "img": "004Charmander.png",
+    "type": ["fire"],
+    "weaknesses": ["ground", "rock", "water"],
+    "resistances": ["bug", "steel", "fire", "grass", "ice", "fairy"],
+    "baseHp": 39,
+    "baseAttack": 52,
+    "baseDefense": 43,
+    "baseSpAttack": 60,
+    "baseSpDefense": 50,
+    "level": 15,
+    "currentHp": 0,
+    "totalHp": 0,
+    "defeated": false,
+    "moves": [
+      {
+        "id": 52,
+        "name": "Ember",
+        "basePower": 40,
+        "type": "fire",
+        "category": "special",
+        "flavor_text": "The target is attacked with small flames. This may also leave the target with a burn."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "img": "007Squirtle.png",
+    "type": ["water"],
+    "weaknesses": ["grass", "electric"],
+    "resistances": ["steel", "fire", "water", "ice"],
+    "baseHp": 44,
+    "baseAttack": 48,
+    "baseDefense": 65,
+    "baseSpAttack": 50,
+    "baseSpDefense": 64,
+    "level": 15,
+    "currentHp": 0,
+    "totalHp": 0,
+    "defeated": false,
+    "moves": [
+      {
+        "id": 145,
+        "name": "Bubble",
+        "basePower": 40,
+        "type": "water",
+        "category": "special",
+        "flavor_text": "A spray of countless bubbles is jetted at the opposing Pokémon. This may also lower their Speed stat."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Pikachu",
+    "img": "025Pikachu.png",
+    "type": ["electric"],
+    "weaknesses": ["ground"],
+    "resistances": ["flying", "steel", "electric"],
+    "baseHp": 35,
+    "baseAttack": 55,
+    "baseDefense": 40,
+    "baseSpAttack": 50,
+    "baseSpDefense": 50,
+    "level": 15,
+    "currentHp": 0,
+    "totalHp": 0,
+    "defeated": false,
+    "moves": [
+      {
+        "id": 84,
+        "name": "Thunder Shock",
+        "basePower": 40,
+        "type": "electric",
+        "category": "special",
+        "flavor_text": "A jolt of electricity crashes down on the target to inflict damage. This may also leave the target with paralysis."
+      }
+    ]
+  }
+]
